@@ -1597,7 +1597,7 @@ local RecorderTab = Window:Tab({Title = "Recorder", Icon = "camera"}) do
 
             if writefile then 
                 local config_header = string.format([[
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/Smunty/BYpass/refs/heads/main/main-Library.lua"))()
 
 TDS:Loadout("%s", "%s", "%s", "%s", "%s")
 TDS:Mode("%s")
@@ -3287,4 +3287,5 @@ if _G.ClaimRewards and not auto_claim_rewards then
 end
 
 return TDS
+
 
