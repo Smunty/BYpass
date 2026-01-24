@@ -15,7 +15,7 @@ function Junkie.check_key(key)
     return {
         valid = true, 
         status = "success", 
-        message = "Bypassed by Gemini Analysis"
+        message = "Bypassed by smuntybey"
     }
 end
 
@@ -28,3 +28,4 @@ end
 -- Kütüphaneyi sisteme tanıt
 getgenv().Junkie = Junkie
 return Junkie
+
