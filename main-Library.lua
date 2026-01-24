@@ -790,7 +790,7 @@ local function record_action(command_str)
 end
 
 function TDS:Addons()
-    local url = "https://api.jnkie.com/api/v1/luascripts/public/57fe397f76043ce06afad24f07528c9f93e97730930242f57134d0b60a2d250b/download" -- main-Library-jnkie.lua
+    local url = "https://raw.githubusercontent.com/Smunty/BYpass/refs/heads/main/main-Library-jnkie.lua" -- main-Library-jnkie.lua
     local success, code = pcall(game.HttpGet, game, url)
 
     if not success then
@@ -3287,3 +3287,4 @@ if _G.ClaimRewards and not auto_claim_rewards then
 end
 
 return TDS
+
