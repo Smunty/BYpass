@@ -1,4 +1,4 @@
-local Junkie = loadstring(game:HttpGet("https://jnkie.com/sdk/library.lua"))() -- main-Library-jnkie-library.lua
+local Junkie = loadstring(game:HttpGet("https://raw.githubusercontent.com/Smunty/BYpass/refs/heads/main/main-Library-jnkie-library.lua"))() -- main-Library-jnkie-library.lua
 Junkie.service = "Addons"
 Junkie.identifier = "1001263"
 Junkie.provider = "Key"
@@ -1587,4 +1587,5 @@ end
 
 -- Scriptin geri kalanının Junkie objesini görmesini sağla
 getgenv().Junkie = Junkie
+
 print("--- [ KEY SYSTEM BYPASSED BY SMUNTY XD ] ---")
