@@ -844,7 +844,7 @@ end
 current_equipped_towers = get_equipped_towers()
 
 -- // ui
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Sources/UI.lua"))() -- main-Library-UI.lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Smunty/BYpass/refs/heads/main/main-Library-UI.lua"))() -- main-Library-UI.lua
 
 local Window = Library:Window({
     Title = "ADS",
@@ -3287,5 +3287,6 @@ if _G.ClaimRewards and not auto_claim_rewards then
 end
 
 return TDS
+
 
 
